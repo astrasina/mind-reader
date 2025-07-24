@@ -1,11 +1,14 @@
 function showoutputkinda() {
     document.getElementById("outputkinda").style.display = 'block';
-    var originalContent = document.getElementById("pacman").innerHTML;
-    document.getElementById("pacman").innerHTML;
-        setTimeout(function() {
-            document.getElementById("pacman").style.display = "none";
-        }, 4000);
-        setTimeout(function() {
-            document.getElementById("think").style.display = 'block';
-        }, 4000);
+
+    var userInput = document.getElementById("inputnumber").value;
+
+    document.getElementById("pacman").style.display = "block";
+    document.getElementById("think").style.display = "none";
+
+    setTimeout(function() {
+        document.getElementById("pacman").style.display = "none";
+        document.getElementById("think").style.display = "block";
+        document.getElementById("think").innerText = "u r thinking of... " + userInput + "!";
+    }, 4000);
 }

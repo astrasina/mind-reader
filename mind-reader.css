@@ -1,5 +1,5 @@
 body{
-    background-color: #F4F8D3;
+    background-color: #FBF5DE;
     align-items: center;
     text-align: center;
 }
@@ -7,8 +7,16 @@ body{
 h2 {
     margin-top: 90px;
     margin-bottom: 40px;
-    color: #8E7DBE;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #DC3C22;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
+}
+
+.container {
+    box-shadow: 0 0 4px #DC3C22;
+    margin: 50px;
+    padding: 1px;
+    border-radius: 7px;
 }
 
 p {
@@ -20,7 +28,8 @@ h3 {
 }
 
 input {
-    background-color: #A6D6D6;
+    background-color: #3D74B6;
+    box-shadow: 0 0 3px black;
     padding: 10px;
     align-items: center;
     text-align: center;
@@ -29,6 +38,11 @@ input {
     border: none;
     border-radius: 5px;
     cursor: text;
+}
+
+input:hover {
+    background-color: #FBF5DE;
+    box-shadow: 0 0 3px #3D74B6;
 }
 
 button {
