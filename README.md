@@ -1,5 +1,7 @@
+Mind Reader
+-----
 Welcome to **Mind Reader** – a quirky little web-app that claims it can read your mind!
-Spoiler? Not today. Just type in a number and let the magic happen ✨
+Spoiler? Not today! Just type any number and let the magic happen✨
 -----
 Features
 - Mind-reading magic (obviously)
