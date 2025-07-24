@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> mind games </title>
+    <link rel = "stylesheet" href = "mind-reader.css">
+</head>
+
+<body> 
+    <div class = container>
+        <h2> mind games! </h2>
+        <p> hello! i will try to read your mind. </p>
+        <h3> please enter a number and i will guess what goes on on you mind. </h3>
+        <div class = input>
+            <input type = "text" name = "inputnumber" id = inputnumber>
+            <br> <br>
+            <button type = "submit" onclick = "showoutputkinda()"> read my mind! </button>
+        </div>
+
+        <br> <br>
+
+        <div class = outputkinda id = outputkinda>
+            <div class = gif id = pacman> 
+                <img src = "pacman-loading.gif" alt = "pacman loading">
+            </div> 
+            <div class = think id = think>
+                u r thinking of
+            </div>
+        </div>
+    </div>
+
+    <script src="mind-reader.js"> </script>
+</body>
+
+</html>
