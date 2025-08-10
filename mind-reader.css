@@ -1,22 +1,25 @@
 body{
-    background-color: #FBF5DE;
+    background-color: #A6F6FF;
+    height: auto;
     align-items: center;
     text-align: center;
 }
 
 h2 {
     margin-top: 90px;
-    margin-bottom: 40px;
-    color: #DC3C22;
-    font-family: 'Franklin Gothic Medium';
-    font-size: 40px;
+    margin-bottom: 50px;
+    color: #6499E9;
+    font-family: fantasy;
+    font-size: 50px;
 }
 
 .container {
-    box-shadow: 0 0 4px #DC3C22;
+    background-image: linear-gradient(to bottom right, #A6F6FF, #6499E9);
+    box-shadow: 0 0 19px #9EDDFF;
     margin: 50px;
     padding: 1px;
     border-radius: 7px;
+    align-items: center;
 }
 
 p {
@@ -28,8 +31,8 @@ h3 {
 }
 
 input {
-    background-color: #3D74B6;
-    box-shadow: 0 0 3px black;
+    background-color: #6499E9;
+    box-shadow: 0 0 1px #9EDDFF;
     padding: 10px;
     align-items: center;
     text-align: center;
@@ -41,29 +44,29 @@ input {
 }
 
 input:hover {
-    background-color: #FBF5DE;
-    box-shadow: 0 0 3px #3D74B6;
+    background-color: #9EDDFF;
+    box-shadow: 0 0 3px #6499E9;
 }
 
 button {
-    background-color: #F7CFD8;
+    background-color: #BEFFF7;
     padding: 7px;
     font-family: monospace;
     font-size: 13px;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0 4px #8E7DBE;
-    cursor: pointer;
+    cursor: pointer;z
 }
 
 button:hover {
     background-color: black;
-    color: #F7CFD8; 
+    color: #BEFFF7; 
 }
 
 .outputkinda {
     display: none;
     font-family: monospace;
+    font-size: 20px;
 }
 
 img {
